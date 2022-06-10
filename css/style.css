@@ -92,3 +92,62 @@ nav:last-child {
     background-color: #00897B;
     border: 5px solid #00897B;
 }
+
+.scroll-down {
+    position: relative;
+    padding-right: 15px;
+}
+
+.scroll-down::after {
+    content: "";
+    position: absolute;
+    transform:rotate(45deg);
+
+    border-width: 0 4px 4px 0;
+    border-style: solid;
+    border-color: #fff;
+    padding: 5px;
+}
+
+/* about us */
+
+.about {
+    padding: 120px 0 128px 0;
+    text-align: center;
+}
+.about-title {
+    font-size: 23px;
+    font-weight: bold;
+    margin-bottom: 35px;
+}
+.about-desc {
+    width: 625px;
+    margin: 0 auto;
+    margin-bottom: 120px;
+}
+
+.about-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.about-item {
+    width: 250px;
+}
+.about-wrap--title {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 30px;
+
+    padding-top: 100px;
+}
+
+.about-item-1 {
+    background: url("../img/about-1.png") no-repeat top;
+}
+.about-item-2 {
+    background: url("../img/about-2.png") no-repeat top;
+}
+.about-item-3 {
+    background: url("../img/about-3.png") no-repeat top;
+}
