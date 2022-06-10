@@ -18,18 +18,19 @@ body {
 /* HEADER */
 
 .header {
+    background-image: url("../img/header-bc.png");
     width: 100%;
-    padding-top: 50px;
 }
 
 /* navbar */
 
 .navbar {
+    background-color: #fff;
     display: flex;
     justify-content: space-between;
     align-items: center;
 
-    margin-bottom: 55px;
+    padding: 55px 120px 50px 110px;
 }
 
 .logo {
@@ -51,7 +52,6 @@ nav:last-child {
 /* inner */
 
 .inner {
-    background-image: url("../img/header-bc.png");
     padding: 170px 0 70px 0;
     text-align: center;
     color: #fff;
@@ -79,10 +79,10 @@ nav:last-child {
     font-weight: bold;
     color: #fff;
     padding: 22px 27px;
-    border: 5px solid white;
+    border: 3px solid white;
     background: none;
 
-    transition: all 1s;
+    transition: all 0.5s;
 }
 .btn-mr {
     margin-right: 25px;
@@ -90,12 +90,13 @@ nav:last-child {
 
 .btn:hover {
     background-color: #00897B;
-    border: 5px solid #00897B;
+    border: 3px solid #00897b;
 }
 
 .scroll-down {
     position: relative;
     padding-right: 15px;
+    cursor: pointer;
 }
 
 .scroll-down::after {
@@ -109,7 +110,7 @@ nav:last-child {
     padding: 5px;
 }
 
-/* about us */
+/* ABOUT US */
 
 .about {
     padding: 120px 0 128px 0;
@@ -121,7 +122,7 @@ nav:last-child {
     margin-bottom: 35px;
 }
 .about-desc {
-    width: 625px;
+    max-width: 625px;
     margin: 0 auto;
     margin-bottom: 120px;
 }
@@ -130,6 +131,7 @@ nav:last-child {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
 .about-item {
     width: 250px;
@@ -150,4 +152,64 @@ nav:last-child {
 }
 .about-item-3 {
     background: url("../img/about-3.png") no-repeat top;
+}
+
+/* SERVICES */
+
+.services {
+    background-color: #E4FDF9;
+    padding: 170px 0 120px 0;
+    text-align: center;
+}
+.services-title{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 35px;
+}
+.services-desc {
+    max-width: 625px;
+    margin: 0 auto;
+    margin-bottom: 110px;
+}
+
+.services-wrap {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.services-item {
+    background-color: #fff;
+    max-width: 370px;
+    height: auto;
+    text-align: center;
+    padding: 50px;
+
+    transition: all 0.8s;
+
+}
+.services-item:hover{
+    background-color: #00897b;
+    color: #fff;
+}
+
+.services-img {
+    margin-bottom: 35px;
+}
+.services-wrap--title{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+.services-wrap--desc {
+    margin-bottom: 40px;
+}
+
+.btn-service{
+    border: 3px solid black;
+    color: black;
+}
+.btn-service:hover{
+    border: 3px solid #fff;
+    color: #fff;
 }
