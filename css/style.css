@@ -9,6 +9,7 @@ html {
 body {
      font-family: 'Open Sans';
      font-size: 15px;
+     color: #444444;
 }
 .container {
     max-width: 117rem;
@@ -212,4 +213,49 @@ nav:last-child {
 .btn-service:hover{
     border: 3px solid #fff;
     color: #fff;
+}
+
+/* LATEST */
+.latest {
+    padding: 130px 0 140px 0;
+    text-align: center;
+}
+.latest-title{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 35px;
+}
+.letest-desc {
+    max-width: 620px;
+    margin: 0 auto;
+    margin-bottom: 110px;
+}
+
+.latest-buttons{
+    max-width: 690px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+
+    margin-bottom: 115px;
+}
+.latest-btn {
+    width: auto;
+    padding: 20px 30px 13px 30px;
+
+    border: 3px solid #00897b;
+    color: #444;
+}
+.latest-btn:hover{
+    color: #fff;
+}
+
+.latest-wrap {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 25px;
+
+    margin-bottom: 130px;
 }
