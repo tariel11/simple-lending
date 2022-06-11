@@ -15,6 +15,19 @@ body {
     max-width: 117rem;
     margin: 0 auto;
 }
+/* TITLE & DESC */
+.title {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.desc {
+    max-width: 620px;
+    margin: 0 auto;
+    margin-bottom: 110px;
+}
 
 /* HEADER */
 
@@ -56,17 +69,6 @@ nav:last-child {
     padding: 170px 0 70px 0;
     text-align: center;
     color: #fff;
-}
-
-.inner-title {
-    font-size: 60px;
-    font-weight: 600;
-    margin-bottom: 30px;
-
-}
-.inner-desc {
-    font-size: 22px;
-    margin-bottom: 100px;
 }
 
 /* btn */
@@ -117,16 +119,6 @@ nav:last-child {
     padding: 120px 0 128px 0;
     text-align: center;
 }
-.about-title {
-    font-size: 23px;
-    font-weight: bold;
-    margin-bottom: 35px;
-}
-.about-desc {
-    max-width: 625px;
-    margin: 0 auto;
-    margin-bottom: 120px;
-}
 
 .about-wrap {
     display: flex;
@@ -162,16 +154,6 @@ nav:last-child {
     padding: 170px 0 120px 0;
     text-align: center;
 }
-.services-title{
-    font-size: 30px;
-    font-weight: bold;
-    margin-bottom: 35px;
-}
-.services-desc {
-    max-width: 625px;
-    margin: 0 auto;
-    margin-bottom: 110px;
-}
 
 .services-wrap {
     display: flex;
@@ -206,11 +188,11 @@ nav:last-child {
     margin-bottom: 40px;
 }
 
-.btn-service{
+.btn-black{
     border: 3px solid black;
     color: black;
 }
-.btn-service:hover{
+.btn-black:hover{
     border: 3px solid #fff;
     color: #fff;
 }
@@ -219,17 +201,6 @@ nav:last-child {
 .latest {
     padding: 130px 0 140px 0;
     text-align: center;
-}
-.latest-title{
-    font-size: 30px;
-    font-weight: bold;
-    text-align: center;
-    margin-bottom: 35px;
-}
-.letest-desc {
-    max-width: 620px;
-    margin: 0 auto;
-    margin-bottom: 110px;
 }
 
 .latest-buttons{
@@ -258,4 +229,61 @@ nav:last-child {
     gap: 25px;
 
     margin-bottom: 130px;
+}
+
+/* PRICING */
+
+.pricing {
+    background-color: #F0F1F1;
+    padding: 125px 0 120px 0;
+}
+
+.pricing-wrap{
+    display: flex;
+    justify-content: space-between;
+}
+
+.pricing-item{
+    width: 366px;
+    text-align: center;
+    padding: 40px 95px 65px 95px;
+    background-color: #fff;
+    background: url("../img/bc-blue.png") no-repeat top;
+}
+
+.pricing-name {
+    font-size: 25px;
+    margin-bottom: 30px;
+    color: #fff;
+
+}
+
+.price {
+    font-size: 17px;
+    margin-bottom: 115px;
+    color: #fff;
+
+    position: relative;
+}
+.val{
+    font-size: 25px;
+
+    position: absolute;
+    left: -5px;
+    top: 7px;
+}
+.sum{
+    font-size: 50px;
+}
+
+.info{
+    font-size: 17px;
+
+}
+hr{
+    margin-top: 13px;
+    margin-bottom: 30px;
+}
+.hr-last{
+    margin-bottom: 65px;
 }
