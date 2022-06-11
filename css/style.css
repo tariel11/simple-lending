@@ -287,3 +287,65 @@ hr{
 .hr-last{
     margin-bottom: 65px;
 }
+
+
+/* TEAM */
+
+.team {
+    padding: 120px 0 125px 0;
+}
+
+.team-wrap{
+    display: flex;
+    justify-content: space-between;
+
+    margin-bottom: 125px;
+}
+.team-item {
+    max-width: 370px;
+    text-align: center;
+}
+.team-img{
+    margin-bottom: 35px;
+}
+.team-name{
+    margin-bottom: 10px;
+}
+.skill{
+    margin-bottom: 30px;
+}
+
+.icons {
+    max-width: 270px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.icon-link {
+    background-color: #F0F1F1;
+    border-radius: 8px;
+    padding: 7px;
+}
+
+.icon {
+    width: 25px;
+    height: 25px;
+}
+
+.dots{
+    width: 65px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.dot {
+    cursor: pointer;
+    width: 15px;
+    height: 15px;
+    background-color: #00897B;
+
+    border-radius: 50%;
+}
+.dot:hover{
+    background-color: #3949AB;
+}
