@@ -349,3 +349,51 @@ hr{
 .dot:hover{
     background-color: #3949AB;
 }
+
+/* BLOG */
+
+.blog {
+    padding: 120px 0 125px 0;
+    background-color: #E4FDF9;
+}
+
+.blog-wrap {
+    display: flex;
+    flex-direction: column;
+}
+
+.blog-item{
+    display: flex;
+}
+.main-item {
+    margin-top: 60px;
+    margin-left: 30px;
+}
+.seo{
+    cursor: pointer;
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+.seo:hover{
+    color: #0F9083;
+}
+
+.date-box{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 35px;
+
+    font-size: 17px;
+    font-weight: 600;
+}
+.date-img{
+    width: 22px;
+    height: 22px;
+}
+.date{
+    margin-right: 40px;
+}
+.blog-text {
+    font-weight: 600;
+}
